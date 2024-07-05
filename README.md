@@ -1,7 +1,10 @@
 # pandas-challenge-1
 
-Requirements
-Explore the Data 
+This program analyzes data from a database about vendor purchases.
+
+In order of what the parts do, the blocks are described below:
+
+Part 1
 View the column names. 
 
 Use the describe function. 
@@ -16,7 +19,7 @@ Store the client ids of those top 5 clients in a list.
 
 Display the total units (the qty column) that the client with the most entries ordered.
 
-Transform the Data 
+Part 2
 Create a column that calculates the subtotal for each line using the unit_price and the qty. 
 
 Create a column for shipping price. Assume a shipping price of $7 per pound for orders over 50 pounds and $10 per pound for items 50 pounds or under. 
@@ -27,14 +30,14 @@ Create a column for the cost of each line using unit cost, qty, and shipping pri
 
 Create a column for the profit of each line using line cost and line price.
 
-Part 3: Confirm Your Work 
+Part 3
 Confirm that Order ID 2742071 had a total price of $152,811.89. 
 
 Confirm that Order ID 2173913 had a total price of $162,388.71. 
 
 Confirm that Order ID 6128929 had a total price of $923,441.25. 
 
-Part 4: Summarize and Analyze (25 points)
+Part 4
 Calculate the total revenue from each of the top 5 clients in Part 1. 
 
 Create a summary DataFrame showing the totals for the top 5 clients with the following information: total units purchased, total shipping price, total revenue, and total profit. 
