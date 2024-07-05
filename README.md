@@ -5,6 +5,7 @@ This program analyzes data from a database about vendor purchases.
 In order of what the parts do, the blocks are described below:
 
 Part 1
+
 View the column names. 
 
 Use the describe function. 
@@ -20,6 +21,7 @@ Store the client ids of those top 5 clients in a list.
 Display the total units (the qty column) that the client with the most entries ordered.
 
 Part 2
+
 Create a column that calculates the subtotal for each line using the unit_price and the qty. 
 
 Create a column for shipping price. Assume a shipping price of $7 per pound for orders over 50 pounds and $10 per pound for items 50 pounds or under. 
@@ -31,6 +33,7 @@ Create a column for the cost of each line using unit cost, qty, and shipping pri
 Create a column for the profit of each line using line cost and line price.
 
 Part 3
+
 Confirm that Order ID 2742071 had a total price of $152,811.89. 
 
 Confirm that Order ID 2173913 had a total price of $162,388.71. 
@@ -44,4 +47,4 @@ Create a summary DataFrame showing the totals for the top 5 clients with the fol
 
 Create a function to change the currency to millions of dollars. Format the data and rename the columns to names suitable for presentation. Then, sort the DataFrame in descending order by total profits. 
 
-Write a brief 2-3 sentence summary of your findings. 
+Summary of your findings. 
